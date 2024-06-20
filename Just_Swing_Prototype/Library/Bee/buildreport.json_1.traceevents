@@ -1,0 +1,538 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1717953207392878, "dur": 2981612, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717953207393156, "dur": 2672, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717953207395830, "dur": 100862, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717953207496822, "dur": 995449, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717953208492274, "dur": 1881969, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717953210374245, "dur": 245, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717953210375035, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1717953208254076, "dur": 194204, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717953208255156, "dur": 46653, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717953208431814, "dur": 5083, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717953208436900, "dur": 11374, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717953208437600, "dur": 9937, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717953208453006, "dur": 1344, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717953208452153, "dur": 2216, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717953210375171, "dur": 239, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1717953208592969, "dur":1029934, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953209622912, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1717953209622975, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1717953209622987, "dur":793, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1717953209623813, "dur":735, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953209624548, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210335928, "dur":646, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336575, "dur":83, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336658, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336666, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336697, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336700, "dur":43, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336743, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336746, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336759, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336761, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336776, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336778, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336784, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336786, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336792, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336794, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336799, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336801, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336811, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336813, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336819, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336821, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336827, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336829, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336834, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336837, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336843, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336845, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336850, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336852, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336857, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336859, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336864, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336887, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210336922, "dur":1707, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717953209626942, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209626943, "dur":15346, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209642303, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717953209642312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209649349, "dur":411, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717953209649766, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717953209649871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209650123, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717953209652556, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1717953209653045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209653416, "dur":6971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1717953209660763, "dur":114519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1717953209775287, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209775297, "dur":7305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1717953209782932, "dur":46977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953209829916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209829928, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953209832733, "dur":24885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953209857625, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209857637, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953209860714, "dur":38456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953209899176, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209899187, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953209902112, "dur":47174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953209949292, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953209949303, "dur":3922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953209953291, "dur":63905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953210017200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953210017209, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953210018589, "dur":67974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953210086570, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953210086582, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953210089244, "dur":103435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953210192684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717953210192694, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717953210194156, "dur":141800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953209627516, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953209627517, "dur":14894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953209642420, "dur":1626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1717953209644050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953209673105, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1717953209677793, "dur":105929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209783729, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953209783869, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209786404, "dur":36557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209822967, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953209822979, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209824433, "dur":35047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209859483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953209859490, "dur":2450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209861992, "dur":38282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209900278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953209900285, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209903951, "dur":31946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209935903, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953209935916, "dur":25436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953209961536, "dur":176391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953210137931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953210137938, "dur":4589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717953210142578, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717953210142661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953210142669, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717953210145142, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717953210145202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953210145209, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717953210148164, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1717953210148233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717953210148240, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1717953210149810, "dur":186108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953209627303, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953209627304, "dur":15147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953209642452, "dur":18414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1717953209660870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953209660888, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1717953209663885, "dur":27827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209691719, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953209692054, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209694890, "dur":33157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209728052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953209728062, "dur":10358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209738477, "dur":129656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209868140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953209868150, "dur":13253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209881494, "dur":37612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209919113, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953209919124, "dur":13378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209932563, "dur":50336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209982906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953209982917, "dur":3461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953209986434, "dur":216604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953210203044, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717953210203055, "dur":3882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717953210206983, "dur":128976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953209627518, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953209627519, "dur":14909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953209642433, "dur":1612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1717953209644048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953209673641, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1717953209677163, "dur":41905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953209719079, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953209719090, "dur":6730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953209725873, "dur":73282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953209799158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953209799166, "dur":6167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953209805489, "dur":52209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953209857705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953209857716, "dur":11244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953209869027, "dur":43270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953209912305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953209912316, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953209916664, "dur":111362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953210028032, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953210028043, "dur":5169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953210033275, "dur":143653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953210176935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717953210177066, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717953210179283, "dur":156694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953209627068, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953209627069, "dur":15222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953209642303, "dur":58301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1717953209700611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953209704922, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1717953209707152, "dur":39003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953209746162, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953209746173, "dur":23560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953209769795, "dur":78218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953209848020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953209848032, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953209850894, "dur":41554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953209892455, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953209892466, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953209893892, "dur":27443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953209921339, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953209921347, "dur":11617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953209933130, "dur":143782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953210076919, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953210076930, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953210079248, "dur":96846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953210176101, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717953210176112, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717953210178673, "dur":157274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953209627518, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953209627519, "dur":14882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953209642406, "dur":18005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1717953209660416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953209660432, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1717953209662464, "dur":66036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953209728503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953209728510, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953209733454, "dur":56534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953209789995, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953209790006, "dur":14912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953209804991, "dur":52708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953209857705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953209857716, "dur":14861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953209872635, "dur":66824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953209939466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953209939476, "dur":23947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953209963504, "dur":64726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953210028234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953210028246, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953210032514, "dur":82359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953210114876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953210114883, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953210117828, "dur":41572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953210159406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717953210159416, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717953210160645, "dur":175290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209627539, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209627540, "dur":14846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209642393, "dur":1996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1717953209644392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209673397, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1717953209677400, "dur":28556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209705960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209705970, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209707322, "dur":31453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209738782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209738792, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209739941, "dur":74813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209814760, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209814771, "dur":8608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209823435, "dur":35533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209858972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209858979, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209862180, "dur":31922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209894109, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209894120, "dur":5528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209899718, "dur":36640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209936364, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953209936377, "dur":26248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953209962675, "dur":48339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953210011018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953210011028, "dur":3223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953210014305, "dur":144034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953210158345, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717953210158356, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717953210160365, "dur":175565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717953209627528, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717953209627528, "dur":14845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717953209642379, "dur":15220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1717953209657602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717953209657721, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1717953209660642, "dur":451130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717953210111778, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717953210111788, "dur":19470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717953210131605, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1717953210131688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717953210131762, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1717953210134078, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717953210134128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717953210134136, "dur":12051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717953210146237, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1717953210146285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717953210146289, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1717953210148881, "dur":187035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209627557, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209627558, "dur":14778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209642346, "dur":1334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1717953209643684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209670455, "dur":3754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1717953209674530, "dur":43783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209718320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209718331, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209721309, "dur":27753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209749068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209749078, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209752319, "dur":79772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209832124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209832131, "dur":4557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209836738, "dur":29859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209866604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209866615, "dur":4949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209871620, "dur":30246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209901872, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209901883, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209903314, "dur":46123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209949443, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209949454, "dur":12703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209962217, "dur":32532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209994755, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953209994766, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953209996778, "dur":61191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953210057975, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953210057986, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953210060507, "dur":147736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953210208248, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717953210208258, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717953210211074, "dur":124906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953209627573, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953209627573, "dur":14730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953209642311, "dur":1215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1717953209643531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953209650823, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1717953209653934, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1717953209654379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953209654388, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1717953209658784, "dur":168708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953209827495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953209827583, "dur":5959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953209833911, "dur":48468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953209882383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953209882393, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953209886341, "dur":27773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953209914121, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953209914132, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953209916551, "dur":46173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953209962731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953209962744, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953209964877, "dur":211263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953210176147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717953210176157, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717953210178722, "dur":157240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953209627456, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953209627456, "dur":14979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953209642437, "dur":14886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1717953209657327, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953209658554, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1717953209661661, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1717953209662413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953209663474, "dur":11209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1717953209675052, "dur":44391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953209719447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953209719454, "dur":26554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953209746072, "dur":53344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953209799419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953209799426, "dur":28307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953209827891, "dur":66608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953209894502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953209894513, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953209897586, "dur":32901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953209930494, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953209930505, "dur":23801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953209954374, "dur":66085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953210020465, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953210020477, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953210021837, "dur":29149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953210050993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953210051004, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953210052386, "dur":162871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953210215285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717953210215295, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717953210217867, "dur":118106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953209627002, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953209627004, "dur":15294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953209642305, "dur":21424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1717953209663735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953209663757, "dur":3509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1717953209667586, "dur":46160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953209713753, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953209713765, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953209716800, "dur":73311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953209790119, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953209790131, "dur":13635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953209803828, "dur":51451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953209855286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953209855298, "dur":5750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953209861135, "dur":89973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953209951115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953209951126, "dur":12492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953209963686, "dur":52246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953210015949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953210016044, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953210017769, "dur":67725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953210085524, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953210085536, "dur":4532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953210090122, "dur":43514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953210133639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953210133648, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717953210135405, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1717953210135454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953210135459, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1717953210138233, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1717953210138367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953210138373, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1717953210142035, "dur":9993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1717953210152034, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717953210152046, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1717953210153354, "dur":182611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953209627545, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953209627545, "dur":14812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953209642366, "dur":1216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1717953209643612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953209651796, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1717953209655049, "dur":69355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209724409, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953209726004, "dur":2328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209728679, "dur":61309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209789995, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953209790006, "dur":12724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209802793, "dur":55449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209858272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953209858282, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209861120, "dur":52073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209913196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953209913204, "dur":15400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209928669, "dur":31499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209960174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953209960185, "dur":13283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953209973522, "dur":96066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953210069594, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953210069605, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953210071369, "dur":43219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953210114595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953210114605, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953210117505, "dur":175624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953210293133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717953210293142, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717953210294523, "dur":41443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953209627385, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953209627386, "dur":15058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953209642447, "dur":1557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1717953209644008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953209672112, "dur":4390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1717953209676797, "dur":50363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953209727167, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953209727178, "dur":8329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953209735560, "dur":140085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953209875651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953209875662, "dur":8893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953209884612, "dur":34314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953209918931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953209918940, "dur":17022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953209936029, "dur":92179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953210028215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953210028226, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953210033089, "dur":38959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953210072054, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953210072066, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953210074113, "dur":109630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953210183746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717953210183754, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717953210185540, "dur":150414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209627158, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209627159, "dur":15134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209642304, "dur":1235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1717953209643543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209651683, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1717953209654866, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1717953209655340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209655350, "dur":5785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1717953209661634, "dur":38773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1.exe" }}
+,{ "pid":12345, "tid":15, "ts":1717953209700413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209700422, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1.exe" }}
+,{ "pid":12345, "tid":15, "ts":1717953209704234, "dur":30053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209734291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209734299, "dur":4296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209738657, "dur":27934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209766598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209766609, "dur":4429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209771098, "dur":27274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209798379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209798390, "dur":5947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209804415, "dur":26705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209831126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209831136, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209834614, "dur":48175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209882793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209882801, "dur":5282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209888178, "dur":109752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953209997933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953209997943, "dur":11777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953210009778, "dur":91083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953210100866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953210100876, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953210102632, "dur":229618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953210332256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717953210332266, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717953210335837, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1717953210335839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209627571, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209627571, "dur":14748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209642326, "dur":19340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1717953209661670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209661806, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1717953209663937, "dur":38462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209702413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209702600, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209704340, "dur":27139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209731485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209731496, "dur":3634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209735196, "dur":39835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209775047, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209775059, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209776658, "dur":50178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209826839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209826848, "dur":3543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209830448, "dur":50622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209881082, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209881093, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209883358, "dur":33330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209916694, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209916706, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209918098, "dur":46589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209964691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953209964701, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953209965929, "dur":47164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953210013099, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953210013123, "dur":3431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953210016632, "dur":120080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953210136719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953210136730, "dur":7406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717953210144595, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1717953210144670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953210144679, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1717953210146339, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1717953210146388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953210146393, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1717953210148481, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1717953210148630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717953210148657, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/b.benton287/Desktop/Just_Swing_Prototype/Builds/Assignment2_GP1_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1717953210150225, "dur":185692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717953210339964, "dur":1997, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1717953210375485, "dur": 757, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717953210375022, "dur": 1236, "ph": "X", "name": "Write chrome-trace events", "args": {} },
